@@ -83,7 +83,7 @@ In `index.html`, below the navigation bar code after the `</header>` tag, add th
 
 #### Add the Footer
 
-In `index.html`, below the main section code after the </main> tag, add the following code for the footer:
+In `index.html`, below the main section code after the `</main>`git a tag, add the following code for the footer:
 
 ```html
 <footer>
