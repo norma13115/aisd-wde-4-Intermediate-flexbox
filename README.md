@@ -210,6 +210,7 @@ footer {
 
 Open `index.html` in your web browser and check if the website is responsive by resizing the browser window.
 
+
 ## Conclusion
 
 You have successfully created a responsive website using Flexbox. You can further enhance the website by adding more content and styles. Keep practicing to master Flexbox!
