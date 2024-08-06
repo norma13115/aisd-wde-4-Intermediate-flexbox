@@ -1,38 +1,32 @@
 
-# WDE05 Advanced FLexbox
+# WDE05 Advanced Flexbox
 
+This project is an assignment where you will learn how to create a responsive website using Flexbox. You will build a simple webpage that includes a navigation bar, a main section, and a footer. The website will be responsive, meaning it will look good on devices of all sizes.
 
-# Responsive Website with Flexbox
-
-## Overview
-
-In this assignment, you will learn how to create a responsive website using Flexbox. You will build a simple webpage that includes a navigation bar, a main section, and a footer. The website will be responsive, meaning it will look good on devices of all sizes.
-
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - Basic knowledge of HTML and CSS
 - Code editor (e.g., VS Code)
 - Web browser for testing
 
-### Files Needed
+## Project Structure
 
-1. `index.html` - The main HTML file for your webpage.
-2. `style.css` - The CSS file to style your webpage.
+```
+responsive_flexbox_website
+│   index.html
+│   style.css
+```
 
-### Step-by-Step Instructions
+## Steps
 
-#### Step 1: Create the Project Structure
+### Step 1: Create the Project Structure
 
 1. Create a new folder for your project.
 2. Inside the folder, create two files: `index.html` and `style.css`.
 
-#### Step 2: Set Up the HTML
+### Step 2: Set Up the HTML
 
-##### Add the HTML Boilerplate
-
-Open `index.html` and add the following boilerplate code:
+Add the HTML boilerplate:
 
 ```html
 <!DOCTYPE html>
@@ -49,7 +43,7 @@ Open `index.html` and add the following boilerplate code:
 </html>
 ```
 
-##### Add the Navigation Bar
+#### Add the Navigation Bar
 
 In `index.html`, within the `<body>` tag, add the following code for the navigation bar:
 
@@ -66,7 +60,7 @@ In `index.html`, within the `<body>` tag, add the following code for the navigat
 </header>
 ```
 
-##### Add the Main Section
+#### Add the Main Section
 
 In `index.html`, below the navigation bar code, add the following code for the main section:
 
@@ -87,7 +81,7 @@ In `index.html`, below the navigation bar code, add the following code for the m
 </main>
 ```
 
-##### Add the Footer
+#### Add the Footer
 
 In `index.html`, below the main section code, add the following code for the footer:
 
@@ -97,11 +91,11 @@ In `index.html`, below the main section code, add the following code for the foo
 </footer>
 ```
 
-#### Step 3: Style with CSS
+### Step 3: Style with CSS
 
 Open `style.css` and add the following styles:
 
-##### Add Basic Reset and Body Styles
+#### Add Basic Reset and Body Styles
 
 ```css
 * {
@@ -118,7 +112,7 @@ body {
 }
 ```
 
-##### Style the Header and Navigation Bar
+#### Style the Header and Navigation Bar
 
 ```css
 header {
@@ -144,14 +138,13 @@ nav ul li a {
 }
 ```
 
-##### Style the Hero Section
+#### Style the Hero Section
 
 ```css
 .hero {
     text-align: center;
     padding: 2em 0;
-    background: url('https://www.pexels.com/photo/beautiful-view-of-sea-847393/') no-repeat center center/cover;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,7 +153,7 @@ nav ul li a {
 }
 ```
 
-##### Style the Content Section
+#### Style the Content Section
 
 ```css
 .content {
@@ -182,7 +175,7 @@ nav ul li a {
 }
 ```
 
-##### Style the Footer
+#### Style the Footer
 
 ```css
 footer {

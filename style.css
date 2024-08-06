@@ -36,8 +36,7 @@ nav ul li a {
 .hero {
     text-align: center;
     padding: 2em 0;
-    background: url('https://www.pexels.com/photo/beautiful-view-of-sea-847393/') no-repeat center center/cover;
-    color: white;
+    color: Black;
     display: flex;
     flex-direction: column;
     align-items: center;
