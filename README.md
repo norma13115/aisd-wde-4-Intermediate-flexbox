@@ -62,7 +62,7 @@ In `index.html`, within the `<body>` tag, add the following code for the navigat
 
 #### Add the Main Section
 
-
+In `index.html`, below the navigation bar code after the `</header>` tag, add the following code for the main section:
 
 ```html
 <main>
