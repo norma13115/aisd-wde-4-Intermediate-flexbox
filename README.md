@@ -98,17 +98,30 @@ Open `style.css` and add the following styles:
 #### Add Basic Reset and Body Styles
 
 ```css
+/* Reset margin, padding, and box-sizing for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Set height of html and body to 100% to ensure they take up the full height of the viewport */
+html, body {
+    height: 100%;
+}
+
+/* Ensure the main content area takes up remaining space between header and footer */
+main {
+    flex: 1;
+}
+
+/* Make body a flex container and set up flexbox layout */
 body {
     font-family: Arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes up at least the full height of the viewport */
+    display: flex; /* Enables Flexbox on the body element */
+    flex-direction: column; /* Arranges children (header, main, footer) in a column */
+    background-color: lightgray;
 }
 ```
 
@@ -121,21 +134,25 @@ header {
     padding: 1em 0;
 }
 
+/* Make the navigation menu a flex container */
 nav ul {
-    display: flex;
-    justify-content: center;
+    display: flex; /* Enables Flexbox on the ul element */
+    justify-content: center; /* Centers the navigation items horizontally */
     list-style: none;
 }
+
 
 nav ul li {
     margin: 0 1em;
 }
+
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 ```
 
 #### Style the Hero Section
@@ -144,12 +161,12 @@ nav ul li a {
 .hero {
     text-align: center;
     padding: 2em 0;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
+    color: Black;
+    display: flex; /* Enables Flexbox on the hero section */
+    flex-direction: column; /* Arranges children in a column */
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    flex: 1; /* Allows the hero section to grow and take up available space */
 }
 ```
 
@@ -157,21 +174,23 @@ nav ul li a {
 
 ```css
 .content {
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* Enables Flexbox on the content section */
+    justify-content: space-between; /* Distributes space between content boxes */
     padding: 2em;
-    flex-wrap: wrap;
-    flex: 1;
+    flex-wrap: wrap; /* Allows the content boxes to wrap to the next line if needed */
+    flex: 1; /* Allows the content section to grow and take up available space */
 }
 
+/* Style for individual content boxes */
 .content .box {
     background-color: #f4f4f4;
-    padding: 1em;
-    width: 30%;
+    padding: 5em;
+    width: 30%; /* Sets the base width of each box */
     text-align: center;
     border-radius: 5px;
     margin-bottom: 1em;
-    flex: 1 1 200px; /* Makes the boxes responsive */
+    flex: 1 1 400px; /* Makes the boxes flexible and responsive: grow and shrink, with a minimum width of 400px */
+    margin: 0.5em; /* Adds margin around each box */
 }
 ```
 
@@ -186,11 +205,8 @@ footer {
 }
 ```
 
-### Step 4: Add Images
 
-Download the images you want to use from Pexels and place them in your project folder. Update the URL in the `hero` section's `background` property in `style.css` with the correct path to your image.
-
-### Step 5: Test Your Website
+### Step 4: Test Your Website
 
 Open `index.html` in your web browser and check if the website is responsive by resizing the browser window.
 
