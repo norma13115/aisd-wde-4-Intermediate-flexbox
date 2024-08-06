@@ -1,6 +1,6 @@
 # WDE05 Advanced Flexbox
 
-![Screenshot of the project](assets/images/example.png/screenshot.png)
+![Screenshot of the project](assets/images/example.png)
 
 ## Description
 This project is an assignment where you will learn how to create a responsive website using Flexbox. You will build a simple webpage that includes a navigation bar, a main section, and a footer. The website will be responsive, meaning it will look good on devices of all sizes.
