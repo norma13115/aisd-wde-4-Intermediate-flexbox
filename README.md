@@ -3,13 +3,7 @@
 ![Screenshot of the project](assets/images/example.png)
 
 ## Description
-This project is an assignment where you will learn how to create a responsive website using Flexbox. You will build a simple webpage that includes a navigation bar, a main section, and a footer. The website will be responsive, meaning it will look good on devices of all sizes.
-
-## Prerequisites
-
-- Basic knowledge of HTML and CSS
-- Code editor (e.g., VS Code)
-- Web browser for testing
+This assignment will cover how to create a responsive website using Flexbox. You will build a simple webpage that includes a navigation bar, a main section, and a footer. The website will be responsive, meaning it will look good on devices of all sizes.
 
 ## Project Structure
 
@@ -204,11 +198,3 @@ footer {
   padding: 1em 0;
 }
 ```
-
-### Step 4: Test Your Website
-
-Open `index.html` in your web browser and check if the website is responsive by resizing the browser window.
-
-## Conclusion
-
-You have successfully created a responsive website using Flexbox. You can further enhance the website by adding more content and styles. Keep practicing to master Flexbox!
