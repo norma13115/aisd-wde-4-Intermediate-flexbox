@@ -198,3 +198,17 @@ footer {
   padding: 1em 0;
 }
 ```
+
+## Testing Your Layout:
+
+- Resize the browser window to see how the Flexbox layout adapts to different screen sizes.
+- Copy and paste the HTML boxes a few more times to see how Flexbox handles the additional content, automatically wrapping and adjusting the layout. Resize the window again to observe how the layout remains responsive.
+
+## AI Assistance
+
+If you have any questions or need further explanations, feel free to ask the AI for help. Here are some examples of what you might ask:
+
+- "How do I create a layout using Flexbox?"
+- "How can I ensure my Flexbox layout is responsive?"
+
+Good luck, and have fun building with Flexbox!
