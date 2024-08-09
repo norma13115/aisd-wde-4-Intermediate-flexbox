@@ -1,4 +1,4 @@
-# WDE05 Advanced Flexbox
+# WDE04 Intermediate Flexbox
 
 ![Screenshot of the project](assets/images/example.png)
 
