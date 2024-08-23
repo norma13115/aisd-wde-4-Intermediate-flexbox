@@ -3,7 +3,7 @@
 ![Screenshot of the project](assets/images/example.png)
 
 ## Description 📄
-This assignment we will work together to cover how to create a responsive website using Flexbox. 
+In this assignment we will work together to cover how to create a responsive website using Flexbox. 
 You will build a simple webpage that includes a navigation bar, a main section, and a footer. 
 The website will be responsive, meaning it will look good on devices of all sizes.
 
@@ -21,7 +21,7 @@ responsive_flexbox
    
    - [ ] Inside the `responsive_flexbox` folder, create a file named `index.html`. This will be your main HTML file.
    
-   - [ ] Also, in the `responsive_flexbox` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
+   - [ ] In the `responsive_flexbox` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
 ## 2. **Start with an HTML Boilerplate**
 Now that you have your files set up, start by adding the basic HTML5 boilerplate.
@@ -68,7 +68,7 @@ In this step, we will add a simple navigation bar to the webpage, providing link
 We inserted a navigation bar within a <header> section of our `index.html` file, using an unordered list to organize the links.
 
 ## 4. **Add the Main Section**
-We will now add the main content section to the webpage, which multiple content boxes arranged using Flexbox.
+We will now add the main content section to the webpage, which includes multiple content boxes arranged using Flexbox.
 
 - [ ] In `index.html`, below the navigation bar code after the `</header>` tag, add the following code for the main section:
 
@@ -233,7 +233,7 @@ The content section is a flex container with evenly spaced, responsive boxes tha
 ## 10. **Style the Footer**
 In this step, we will style the footer to match the overall design by giving it a dark background, white text, and centered alignment.
 
-- [ ] Lastly, Open `style.css` and add the following styles:
+- [ ] Lastly, open `style.css` and add the following styles:
 
 ```css
 footer {
@@ -254,6 +254,7 @@ Now, we will test the responsiveness of our layout by resizing the browser windo
 - [ ] Resize the browser window to see how the Flexbox layout adapts to different screen sizes.
 - [ ] Copy and paste the HTML boxes a few more times to see how Flexbox handles the additional content.
 - [ ] Resize the window again to observe how the layout remains responsive.
+##
 
 If you have any questions or need further explanations, feel free to ask the AI for help.
 
