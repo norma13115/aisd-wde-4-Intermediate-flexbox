@@ -10,18 +10,18 @@ The website will be responsive, meaning it will look good on devices of all size
 ## Expected Project Structure 🏗️
 
 ```
-responsive_flexbox_website
+responsive_flexbox
 │   index.html
 │   style.css
 ```
 
 
 ## 1. **Create the Project Folder and Files**
-   - [ ] Create a folder named `folder name` to store all your project files.
+   - [ ] Create a folder named `responsive_flexbox` to store all your project files.
    
-   - [ ] Inside the `folder name` folder, create a file named `index.html`. This will be your main HTML file.
+   - [ ] Inside the `responsive_flexbox` folder, create a file named `index.html`. This will be your main HTML file.
    
-   - [ ] Also, in the `folder name` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
+   - [ ] Also, in the `responsive_flexbox` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
 ## 2. **Start with an HTML Boilerplate**
 Now that you have your files set up, start by adding the basic HTML5 boilerplate.
