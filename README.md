@@ -1,11 +1,13 @@
-# WDE04 Intermediate Flexbox
+# Intermediate Flexbox
 
 ![Screenshot of the project](assets/images/example.png)
 
-## Description
-This assignment will cover how to create a responsive website using Flexbox. You will build a simple webpage that includes a navigation bar, a main section, and a footer. The website will be responsive, meaning it will look good on devices of all sizes.
+## Description 📄
+This assignment we will work together to cover how to create a responsive website using Flexbox. 
+You will build a simple webpage that includes a navigation bar, a main section, and a footer. 
+The website will be responsive, meaning it will look good on devices of all sizes.
 
-## Project Structure
+## Expected Project Structure 🏗️
 
 ```
 responsive_flexbox_website
@@ -13,16 +15,18 @@ responsive_flexbox_website
 │   style.css
 ```
 
-## Steps
 
-### Step 1: Create the Project Structure
+## 1. **Create the Project Folder and Files**
+   - [ ] Create a folder named `folder name` to store all your project files.
+   
+   - [ ] Inside the `folder name` folder, create a file named `index.html`. This will be your main HTML file.
+   
+   - [ ] Also, in the `folder name` folder, create another file named `styles.css`. This file will contain the CSS used to style your HTML content.
 
-1. Create a new folder for your project.
-2. Inside the folder, create two files: `index.html` and `style.css`.
+## 2. **Start with an HTML Boilerplate**
+Now that you have your files set up, start by adding the basic HTML5 boilerplate.
 
-### Step 2: Set Up the HTML
-
-Add the HTML boilerplate:
+  - [ ] Open your currently empty index.html file and add the following code to it.
 
 ```html
 <!DOCTYPE html>
@@ -40,16 +44,12 @@ Add the HTML boilerplate:
 ```
 
 **Explanation:**
-- `<!DOCTYPE html>` declares the document type and version of HTML.
-- The `<html lang="en">` tag defines the language of the document as English.
-- `<meta charset="UTF-8" />` sets the character encoding to UTF-8, which supports most characters from various languages.
-- The `<meta name="viewport" content="width=device-width, initial-scale=1.0" />` tag ensures the website is responsive by setting the viewport to the width of the device and scaling the content accordingly.
-- The `<title>` tag sets the title of the webpage, which appears in the browser tab.
-- The `<link rel="stylesheet" href="style.css" />` tag links the external CSS file (`style.css`) to the HTML document for styling.
+- Declares the document as HTML5 and sets up the essential metadata and styles.
 
-#### Add the Navigation Bar
+## 3. **Add the Navigation Bar**
+In this step, we will add a simple navigation bar to the webpage, providing links to key sections.
 
-In `index.html`, within the `<body>` tag, add the following code for the navigation bar:
+ - [ ] In `index.html`, within the `<body>` tags, add the following code for the navigation bar:
 
 ```html
 <header>
@@ -65,14 +65,12 @@ In `index.html`, within the `<body>` tag, add the following code for the navigat
 ```
 
 **Explanation:**
-- The `<header>` tag defines the header of the webpage, which typically contains the navigation menu.
-- `<nav>` defines a navigation section and contains the `<ul>` (unordered list) element.
-- The `<ul>` element holds a list of links, each contained within an `<li>` (list item) element.
-- `<a href="#">Home</a>` is a hyperlink that, when clicked, will take the user to the specified URL. The `href="#"` attribute is a placeholder link.
+We inserted a navigation bar within a <header> section of our `index.html` file, using an unordered list to organize the links.
 
-#### Add the Main Section
+## 4. **Add the Main Section**
+We will now add the main content section to the webpage, which multiple content boxes arranged using Flexbox.
 
-In `index.html`, below the navigation bar code after the `</header>` tag, add the following code for the main section:
+- [ ] In `index.html`, below the navigation bar code after the `</header>` tag, add the following code for the main section:
 
 ```html
 <main>
@@ -92,16 +90,13 @@ In `index.html`, below the navigation bar code after the `</header>` tag, add th
 ```
 
 **Explanation:**
-- The `<main>` tag defines the main content area of the webpage. It contains two sections: the hero section and the content section.
-- `<section class="hero">` defines a section with a class of "hero", used for the introductory content.
-- `<h1>Welcome to Our Website</h1>` is a top-level heading that serves as the main title of the hero section.
-- `<p>This is a responsive website using Flexbox.</p>` is a paragraph providing a brief description.
-- `<section class="content">` defines a section with a class of "content", which will hold the individual content boxes.
-- `<div class="box">Content Box 1</div>` represents a content box. The `div` element is a block-level container, and the `class="box"` applies the CSS styles associated with the "box" class.
+This code creates the main content area of the webpage using a layout of six content boxes for displaying key information.
 
-#### Add the Footer
 
-In `index.html`, below the main section code after the `</main>` tag, add the following code for the footer:
+## 5. **Add the Footer**
+In this step, we will add a footer to the webpage to display copyright information at the bottom.
+
+- [ ] In `index.html`, below the main section code after the `</main>` tag, add the following code for the footer:
 
 ```html
 <footer>
@@ -110,15 +105,13 @@ In `index.html`, below the main section code after the `</main>` tag, add the fo
 ```
 
 **Explanation:**
-- The `<footer>` tag defines the footer of the webpage, which typically contains copyright information or additional links.
-- `<p>&copy; 2024 Your Website</p>` is a paragraph that displays the copyright symbol and the year.
+The code uses the <footer> tag to define the footer area and includes a <p> tag to display the copyright and the name of the website.
 
 
-### Step 3: Now Style with CSS
+## 6. **CSS for Basic Reset and Body Styles**
+We will add CSS styles to reset default browser styles and define the basic layout and appearance of the webpage's body.
 
-Open `style.css` and add the following styles:
-
-#### Add Basic Reset and Body Styles
+- [ ] Open `style.css` and add the following styles:
 
 ```css
 * {
@@ -146,12 +139,14 @@ body {
 ```
 
 **Explanation:**
-- The `*` selector resets the margin, padding, and sets `box-sizing` to `border-box` for all elements. This ensures consistency across different browsers.
-- The `html` and `body` selectors set their height to 100% so that they take up the full height of the viewport.
-- The `main` selector is set to flex-grow (`flex: 1`) so it can expand to fill the space between the header and footer.
-- The `body` selector is styled as a flex container, using Flexbox to arrange the header, main, and footer in a column. The `min-height: 100vh` ensures that the body takes up at least the full height of the viewport, and the background color is set to light gray.
+The code resets margins, padding, and sets consistent box-sizing across all elements.
+It also  defines the body as a flex container that spans the full height of the viewport. 
+The body is styled with a background color and uses Flexbox to arrange the page layout.
 
-#### Style the Header and Navigation Bar
+## 7. **Style the Header and Navigation Bar**
+We will style the header and navigation bar to enhance the visual appearance and layout of the top section of the webpage.
+
+- [ ] Open `style.css` and add the following styles:
 
 ```css
 header {
@@ -178,12 +173,14 @@ nav ul li a {
 ```
 
 **Explanation:**
-- The `header` selector is styled with a dark background color and white text, with padding on the top and bottom.
-- The `nav ul` selector is styled as a flex container with centered items (`justify-content: center`), and the list-style is removed.
-- The `nav ul li` selector adds horizontal spacing between each navigation item.
-- The `nav ul li a` selector styles the links in the navigation bar, making the text white, removing the underline, and setting the font to bold.
+The code styles the header with a dark background and white text, adding padding for spacing. 
+The nav ul is made a flex container to center the navigation items, with the list-style removed. 
+Spacing is added between each navigation item using nav ul li, and the links are styled as well.
 
-#### Style the Hero Section
+## 8. **Style the Hero Section**
+In this step, we will style the hero section to ensure it is visually centered and occupies the appropriate space within the webpage.
+
+- [ ] Open `style.css` and add the following styles:
 
 ```css
 .hero {
@@ -199,11 +196,14 @@ nav ul li a {
 ```
 
 **Explanation:**
-- The `hero` section is centered both horizontally (`text-align: center`) and vertically using Flexbox. It also has padding on the top and bottom.
-- The `display: flex` makes the hero section a flex container, with its children arranged in a column (`flex-direction: column`), centered horizontally (`align-items: center`), and vertically (`justify-content: center`).
-- The `flex: 1` allows the hero section to grow and take up available space.
+The code centers the hero section both horizontally and vertically using text-align: center and Flexbox, while padding adds spacing. 
+The section is a flex container with content arranged in a centered column, and flex: 1 allows it to expand to fill available space.
 
-#### Style the Content Section
+
+## 9. **Style the Content Section**
+In this step, we will style the content section to create a responsive, well-spaced layout for the content boxes.
+
+- [ ] Open `style.css` and add the following styles:
 
 ```css
 .content {
@@ -227,11 +227,13 @@ nav ul li a {
 ```
 
 **Explanation:**
-- The `content` section is styled as a flex container with `space-between` alignment, ensuring equal space between content boxes. Padding is added for spacing inside the section.
-- The `flex-wrap: wrap` allows the content boxes to wrap to the next line if necessary.
-- The `content .box` selector styles individual content boxes with a light background color, padding, a specific width, and centered text. The `flex: 1 1 400px` makes each box flexible and responsive, allowing them to grow or shrink as needed with a minimum width of 400px. The margin adds spacing around each box.
+The content section is a flex container with evenly spaced, responsive boxes that wrap when necessary.
+ Each box is styled with padding, a light background, centered text, and a minimum width of 400px, with margins adding space between them.
 
-#### Style the Footer
+## 10. **Style the Footer**
+In this step, we will style the footer to match the overall design by giving it a dark background, white text, and centered alignment.
+
+- [ ] Lastly, Open `style.css` and add the following styles:
 
 ```css
 footer {
@@ -245,20 +247,33 @@ footer {
 **Explanation:**
 - The `footer` selector is styled with a dark background color and white text, similar to the header, and centered text with padding on the top and bottom.
 
-## Testing Your Layout:
+## 11. **Testing Your Layout**
+Now, we will test the responsiveness of our layout by resizing the browser window and adding more content.
 
-- Resize the browser window to see how the Flexbox layout adapts to different screen sizes.
-- Copy and paste the HTML boxes a few more times to see how Flexbox handles the additional content, automatically wrapping and adjusting the layout. Resize the window again to observe how the layout remains responsive.
 
-## AI Assistance
+- [ ] Resize the browser window to see how the Flexbox layout adapts to different screen sizes.
+- [ ] Copy and paste the HTML boxes a few more times to see how Flexbox handles the additional content.
+- [ ] Resize the window again to observe how the layout remains responsive.
 
-If you have any questions or need further explanations, feel free to ask the AI for help. Here are some examples of what you might ask:
+If you have any questions or need further explanations, feel free to ask the AI for help.
 
-- "How do I create a layout using Flexbox?"
-- "How can I ensure my Flexbox layout is responsive?"
-
-Good luck, and have fun building with Flexbox!
+**Explanation:**
+We’ll check how the Flexbox layout adjusts to different screen sizes and manages additional content, ensuring it stays responsive and properly structured.
 
 ##
+
+# Conclusion 📄
+We've now covered the fundamentals of building a responsive website using Flexbox. We progressively added and styled key sections of the webpage, including a navigation bar, main content area, and footer. We applied Flexbox techniques to create a layout that adapts smoothly to different screen sizes. Finally, we tested our layout to see how Flexbox handles various scenarios. You’ve now gained hands-on experience in creating a responsive webpage that looks great on any device.
+
+##
+
+### Solution codebase 👀
+🛑 **Only use this as a reference** 🛑
+
+💾 **Not something to copy and paste** 💾
+
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-wde-4-Intermediate-flexbox/tree/solution) (link not shown).
+
+---
 
 © All rights reserved to ThriveDX
