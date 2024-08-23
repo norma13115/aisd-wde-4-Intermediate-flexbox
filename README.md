@@ -254,9 +254,6 @@ Now, we will test the responsiveness of our layout by resizing the browser windo
 - [ ] Resize the browser window to see how the Flexbox layout adapts to different screen sizes.
 - [ ] Copy and paste the HTML boxes a few more times to see how Flexbox handles the additional content.
 - [ ] Resize the window again to observe how the layout remains responsive.
-##
-
-If you have any questions or need further explanations, feel free to ask the AI for help.
 
 **Explanation:**
 We’ll check how the Flexbox layout adjusts to different screen sizes and manages additional content, ensuring it stays responsive and properly structured.
