@@ -105,7 +105,7 @@ In this step, we will add a footer to the webpage to display copyright informati
 ```
 
 **Explanation:**
-The code uses the <footer> tag to define the footer area and includes a <p> tag to display the copyright and the name of the website.
+The code uses the <footer> tag to define the footer area, with a <p> tag displaying the copyright information and the website name.
 
 
 ## 6. **CSS for Basic Reset and Body Styles**
@@ -258,6 +258,10 @@ Now, we will test the responsiveness of our layout by resizing the browser windo
 **Explanation:**
 We’ll check how the Flexbox layout adjusts to different screen sizes and manages additional content, ensuring it stays responsive and properly structured.
 
+
+## 12. **Commit and Push to Github**
+ - [ ] Commit and push your work to Github.
+ 
 ##
 
 # Conclusion 📄
