@@ -1,0 +1,81 @@
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+main {
+    flex: 1;
+}
+
+/* Make body a flex container and set up flexbox layout */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Ensures the body takes up at least the full height of the viewport */
+    display: flex; /* Enables Flexbox on the body element */
+    flex-direction: column; /* Arranges children (header, main, footer) in a column */
+    background-color: lightgray;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+/* Make the navigation menu a flex container */
+nav ul {
+    display: flex; /* Enables Flexbox on the ul element */
+    justify-content: center; /* Centers the navigation items horizontally */
+    list-style: none;
+}
+
+
+nav ul li {
+    margin: 0 1em;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}.hero {
+    text-align: center;
+    padding: 2em 0;
+    color: Black;
+    display: flex; /* Enables Flexbox on the hero section */
+    flex-direction: column; /* Arranges children in a column */
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    flex: 1; /* Allows the hero section to grow and take up available space */
+}
+.content {
+    display: flex; /* Enables Flexbox on the content section */
+    justify-content: space-between; /* Distributes space between content boxes */
+    padding: 2em;
+    flex-wrap: wrap; /* Allows the content boxes to wrap to the next line if needed */
+    flex: 1; /* Allows the content section to grow and take up available space */
+}
+
+/* Style for individual content boxes */
+.content .box {
+    background-color: #f4f4f4;
+    padding: 5em;
+    width: 30%; /* Sets the base width of each box */
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    flex: 1 1 400px; /* Makes the boxes flexible and responsive: grow and shrink, with a minimum width of 400px */
+    margin: 0.5em; /* Adds margin around each box *
+
+    /* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set height of html and body to 100% to ensure they take up the full height of the viewport */
+html, body {
+    height: 100%;
+}
